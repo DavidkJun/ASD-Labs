@@ -364,7 +364,7 @@ def print_matrix(matrix, description):
     for row in matrix:
         print(row)
 
-# Example usage
+
 reach_matrix, con_matrix = reachConnectMatrix(graph)
 print_matrix(reach_matrix, "Матриця досяжності:")
 print_matrix(con_matrix, "Матриця сильної зв'язності:")
